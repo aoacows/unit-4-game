@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" href="reset.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+</head>
+<body background= "images/background.png">
+    <div class="content">
+    <div>Crystal Game</div>
+    <div>
+    <P>
+            You will be given a random number at the start of the game.
+    <br>            
+            There are four crystal below, clicking on a crystal you will add points to your total.
+    <br>           
+            You win the game by matching your total to the random number, 
+    <br>        
+            you lose if your total goes above the random number.
+    <br>            
+            The value of each crystal isn't shown until you click on it to make it interesting!
+    <br>            
+            the game will change the values of each crystals every new round.        
+    </P>
+
+    </div>
+    <br>    
+       
+    <div id="Random-Number"></div>
+    <div class="Numbers-to-Track">
+    <div id="scoreHere"></div>
+    <p>Total</p>
+    <div id="realscore"></div>
+    
+    </div>
+            <div class="btn-group">
+                <button id="crystala" class="btn btn-gems"><img class="gems" src="assets/images/emerald.png"></button>
+                <button id="crystalb" class="btn btn-gems"><img class="gems" src="assets/images/gem.png"></button>    
+                <button id="crystalc" class="btn btn-gems"><img class="gems" src="assets/images/ruby.png"></button>    
+                <button id="crystald" class="btn btn-gems"><img class="gems" src="assets/images/SAPP.png"></button>
+            </div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    </div>
+</body>
+</html>
